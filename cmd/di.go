@@ -88,7 +88,7 @@ import (
 
 // UIServer represents our web server
 type UIServer interface {
-	Serve() error
+	Serve()
 	Stop()
 }
 
